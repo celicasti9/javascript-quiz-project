@@ -493,8 +493,11 @@ describe("Quiz", () => {
       // YOUR CODE HERE:
       //
       // 1. Instantiate a new Quiz object with the test questions
+      const quiz = new Quiz(questions, 60, 60);
 
       // 2. Check that the averageDifficulty() method returns the correct average when called
+      expect(quiz.averageDifficulty()).toEqual(1.8);
+
 
     });
   });

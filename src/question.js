@@ -12,4 +12,5 @@ class Question {
     shuffleChoices(){
 
         this.choices.sort(() => Math.random() - 0.5);
-   }};
+   }
+};
